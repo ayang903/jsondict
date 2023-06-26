@@ -4,7 +4,7 @@ In order to upload a dataset to data.buspark.io, you need to create a JSON file 
 
   
 
-projectName: This is the name of the dataset or project. It's important that this name is unique and descriptive enough so that users can easily understand what data the project contains just by looking at the name. In CKAN, it's often used as the identifier for the dataset and is included in the dataset's URL.
+project_name: This is the name of the dataset or project. It's important that this name is unique and descriptive enough so that users can easily understand what data the project contains just by looking at the name. In CKAN, it's often used as the identifier for the dataset and is included in the dataset's URL.
 
   
 
@@ -16,7 +16,7 @@ url: This field contains a URL for more information about the dataset. In most c
 
   
 
-resourceFolder: This is the name of the folder that contains the resources associated with the dataset. Remember, resources in CKAN usually represent individual data files. For example, if your dataset includes data from multiple years, you might have one CSV file for each year, compile each CSV into one folder and use that folder's name for this field.
+resource_folder: This is the name of the folder that contains the resources associated with the dataset. Remember, resources in CKAN usually represent individual data files. For example, if your dataset includes data from multiple years, you might have one CSV file for each year, compile each CSV into one folder and use that folder's name for this field.
 
   
 
